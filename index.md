@@ -37,7 +37,8 @@ I also have experience with memory safety ([SGXBounds](http://dl.acm.org/citatio
 More information about me on [my university page](https://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/team/people/o_oleksenko) and on [LinkedIn](https://www.linkedin.com/in/oleksiioleksenko).
 
 <br/>
-<br/>
+
+---
 
 # My recent posts:
 
