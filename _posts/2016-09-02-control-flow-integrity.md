@@ -2,7 +2,7 @@
 layout: default
 date: 2016-09-02 12:00
 title: "A paper in short: Control-Flow Integrity"
-category: Security
+tag: Security
 ---
 
 [Control-Flow Integrity](http://dl.acm.org/citation.cfm?id=1102165) - Abadi et al. 

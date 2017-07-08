@@ -1,7 +1,9 @@
-Title: Automated Deployment on Every Commit to Master Branch
-Date: 2016-02-10 17:30
-Category: IT Ops
-Tags: git, vcs
+---
+layout: default
+date: 2016-02-10 17:30
+title: Automated Deployment on Every Commit to Master Branch
+tag: "IT Ops"
+---
 
 A simple and common workflow for deployment of small applications is
 to pull changes to the server on every commit to the master (especially,

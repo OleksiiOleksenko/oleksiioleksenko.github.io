@@ -1,7 +1,10 @@
-Title: Change Nginx Timezone in CentOS
-Date: 2016-02-18 18:30
-Category: IT Ops
-Tags: nginx
+---
+layout: default
+date: 2016-02-18 18:30
+title: "Change Nginx Timezone in CentOS"
+tag: Dev
+---
+
 
 I recently had an issue with setting up a correct timezone in Nginx logs. A simple googling gave
 me an answer that I should either set the environmental variable `TZ` or change the startup script

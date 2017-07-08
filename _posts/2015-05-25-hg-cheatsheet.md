@@ -1,7 +1,9 @@
-Title: Mercurial Workflow Cheatsheet
-Date: 2015-05-25 20:00
-Category: IT Ops
-Tags: hg, vcs
+---
+layout: default
+date: 2015-05-25 12:00
+title: Mercurial Workflow 
+category: Dev
+---
 
 Workflow based on http://nvie.com/posts/a-successful-git-branching-model/
 
