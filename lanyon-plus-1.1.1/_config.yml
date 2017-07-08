@@ -1,4 +1,3 @@
-
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -8,27 +7,20 @@ relative_permalinks: false
 encoding: utf-8
 
 # Setup
-title:               Oleksii Oleksenko
+title:               My Website
 #tagline:             'foo's website
-description:         My blog...
-url: https://oleksiioleksenko.github.io/
-baseurl: ""
-urlimg: https://oleksiioleksenko.github.io/
-## If you do not have custom domain, comment top three lines, uncomment three lines below and replace dyndna with your github userid and lanyon-plus with your project name. Also, rename CNAME file to CNAME.sample
-#url: https://dyndna.github.io/lanyon-plus
-#baseurl: "/lanyon-plus"
-#urlimg: https://dyndna.github.io/lanyon-plus/images/
+description:         Foo's blog...
+url: https://dyndna.github.io/lanyon-plus
+baseurl: "/lanyon-plus"
+urlimg: https://dyndna.github.io/lanyon-plus/images/
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
-
 paginate: 5
 paginate_path: "/blog/page:num"
 excerpt_separator: <!--more-->
 default_bg: sitebg.jpg
 default_logo: sitelogo.png
 safe: false
-timezone:    Europe/Berlin
+#timezone:    America/Chicago
 future:      true
 
 
@@ -37,9 +29,11 @@ syntax_highlighter: rouge
 input: GFM
 
 gems:
-  - github-pages
+  - jekyll-paginate
+  - jemoji
   - font-awesome-sass
-  - jekyll-redirect-from
+  - kramdown
+  - rouge
   - jekyll-mentions
 
 jekyll-mentions:
@@ -50,48 +44,53 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 
 # About/contact
 author:
-  name:              Oleksii Oleksenko
-  url:               https://twitter.com/oleksii_o
-  avatar:         av.png
+  name:              Foo Boo
+  url:               https://twitter.com/abcd
+  avatar:         foo.png
   #email:           
 
 # Owner/author information
 owner:
-  name:           Oleksii Oleksenko
-  avatar:         av.png
+  name:           Foo Boo
+  avatar:         foo.png
   #email:          
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        oleksii_o
+  twitter:        abcd
   facebook:       
-  github:         OleksiiOleksenko
+  github:         xyz123abc
   stackexchange:  
-  linkedin:       https://www.linkedin.com/in/oleksiioleksenko/
-  instagram:      https://www.instagram.com/oleksii_oleksenko/
+  linkedin:       https://www.linkedin.com/in/foo
+  instagram:      
   flickr:
   tumblr:  
-  google_plus:    
+  google_plus:    https://plus.google.com/+foo
   # orcid and google scholar IDs are different than standard username.
-  orcid: 
-  gscholar: qHCADLcAAAAJ
+  orcid: xyz123abc
+  gscholar: xyz123abc
 
 ## sidebar links:
 # For external links add external: true
 links:
   - title: <i class="iconside iconm-home"></i> Home
     url: /
+  - title: <i class="iconside iconm-user"></i> About
+    url: /about/
   - title: <i class="iconside iconm-quill"></i> Blog
     url: /blog/
-  # - title: <i class="fa fa-tags"></i> Tags
-  #   url: /tags/
-  # - title: <i class="fa fa-archive"></i> Archive
-  #   url: /archive/
+  - title: <i class="fa fa-tags"></i> Tags
+    url: /tags/
+  - title: <i class="fa fa-archive"></i> Archive
+    url: /archive/
+  - title: <i class="iconside iconm-wordpress"></i> Old Blog
+    url: https://foo.wordpress.com
+    external: true
   - title: <i class="iconside iconm-envelop"></i> Contact
     url: /contact/
-  # - title: <i class="iconside iconm-twitter"></i> Twitter
-  #   url: https://twitter.com/abcd
-  #   external: true
+  - title: <i class="iconside iconm-twitter"></i> Twitter
+    url: https://twitter.com/abcd
+    external: true
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
 
@@ -103,10 +102,12 @@ links:
 #twitter_widget_id: xyz123abc
 
 # Add disqus username for Disqus comment board:
-disqus_shortname: alexo-blog
+disqus_shortname: foo
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-76459048-1
+#google_analytics:   xyz123abc
 
-
+#### For dummy website only - remove if you wish ####
+github_repo: https://github.com/dyndna/lanyon-plus
+version: 1.1.1
 ## END ##
