@@ -41,7 +41,7 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 # My Publications
 
 <div id="ref-sgxbounds2017">
-<p> <b>[Best Paper Award]<b/> Dmitrii Kuvaiskii, Oleksii Oleksenko, Sergei Arnautov, Bohdan Trach, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2017. “SGXBounds: Memory Safety for Shielded Execution.” In <em>Proceedings of the Twelfth European Conference on Computer Systems</em>, 205–21. EuroSys’17. New York, NY, USA: ACM.</p>
+<p> <b>[Best Paper Award]</b> Dmitrii Kuvaiskii, Oleksii Oleksenko, Sergei Arnautov, Bohdan Trach, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2017. “SGXBounds: Memory Safety for Shielded Execution.” In <em>Proceedings of the Twelfth European Conference on Computer Systems</em>, 205–21. EuroSys’17. New York, NY, USA: ACM.</p>
 </div>
 
 <div id="ref-fex2017">
@@ -71,6 +71,7 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 </div>
 
 ---
+
 
 # My recent blog posts:
 
