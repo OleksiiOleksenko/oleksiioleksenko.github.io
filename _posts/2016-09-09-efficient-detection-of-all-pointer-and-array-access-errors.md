@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 date: 2016-09-09 12:00
 title: "A paper in short: Efficient detection of all pointer and array access errors"
 tag: Security
+comments: true
 ---
 
 [Efficient detection of all pointer and array access errors](http://dl.acm.org/citation.cfm?id=178446) - Austin et al.

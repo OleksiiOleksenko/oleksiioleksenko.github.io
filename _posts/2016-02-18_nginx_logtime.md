@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 date: 2016-02-18 18:30
 title: "Change Nginx Timezone in CentOS"
 tag: Dev
+comments: true
 ---
 
 

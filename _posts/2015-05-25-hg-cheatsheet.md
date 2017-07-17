@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 date: 2015-05-25 12:00
 title: Mercurial Workflow 
 category: Dev
+comments: true
 ---
 
 Workflow based on http://nvie.com/posts/a-successful-git-branching-model/

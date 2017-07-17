@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: post
 date: 2016-02-10 17:30
 title: Automated Deployment on Every Commit to Master Branch
 tag: "IT Ops"
+comments: true
 ---
 
 A simple and common workflow for deployment of small applications is
