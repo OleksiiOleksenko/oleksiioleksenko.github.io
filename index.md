@@ -38,7 +38,41 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 
 ---
 
-# My recent posts:
+# My Publications
+
+<div id="ref-sgxbounds2017">
+<p> <b>[Best Paper Award]<b/> Dmitrii Kuvaiskii, Oleksii Oleksenko, Sergei Arnautov, Bohdan Trach, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2017. “SGXBounds: Memory Safety for Shielded Execution.” In <em>Proceedings of the Twelfth European Conference on Computer Systems</em>, 205–21. EuroSys’17. New York, NY, USA: ACM.</p>
+</div>
+
+<div id="ref-fex2017">
+<p>Oleksii Oleksenko, Dmitrii Kuvaiskii, Pramod Bhatotia, and Christof Fetzer. 2017. “Fex: A Software Systems Evaluator.” In <em>Proceedings of the 47st International Conference on Dependable Systems &amp; Networks (DSN)</em>.</p>
+</div>
+
+<div id="ref-OleksenkoKBFF17">
+<p>Oleksii Oleksenko, Dmitrii Kuvaiskii, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2017. “Intel MPX Explained: An Empirical Study of Intel MPX and Software-Based Bounds Checking Approaches.” <em>CoRR</em> abs/1702.00719.</p>
+</div>
+
+
+<div id="ref-Kuvaiskii2016elzarTechReport">
+<p>Dmitrii Kuvaiskii, Oleksii Oleksenko, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2016. “Elzar: Triple Modular Redundancy using Intel Advanced Vector Extensions (Technical Report).” In <em>ArXiv:1604.00500</em>.</p>
+</div>
+
+<div id="ref-Kuvaiskii2016elzar">
+<p>Dmitrii Kuvaiskii, Oleksii Oleksenko, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2016. “Elzar: Triple Modular Redundancy using Intel AVX (Practical Experience Report).” In <em>Proceedings of the IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)</em>.</p>
+</div>
+
+
+<div id="ref-Oleksenko2016dsnFastAbstract">
+<p>Oleksenko Oleksii, Dmitrii Kuvaiskii, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2016. “ Efficient Fault Tolerance using Intel MPX and TSX.” In <em>Proceedings of 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)</em>. doi:<a href="https://doi.org/10.13140/RG.2.1.3224.7289">10.13140/RG.2.1.3224.7289</a>.</p>
+</div>
+
+<div id="ref-Kolditz2015">
+<p>Kolditz Till, Dirk Habich, Patrick Damme, Wolfgang Lehner, Dmitrii Kuvaiskii, Oleksii Oleksenko, and Christof Fetzer. 2015. “Resiliency-Aware Data Compression for in-Memory Database Systems.” In <em>Proceedings of 4th International Conference on Data Management Technologies and Applications</em>, 326–31. doi:<a href="https://doi.org/10.5220/0005557303260331">10.5220/0005557303260331</a>.</p>
+</div>
+
+---
+
+# My recent blog posts:
 
 <br/>
 
