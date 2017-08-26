@@ -1,7 +1,10 @@
-Title: Writing an Activation Script
-Date: 2016-02-25 12:00
-Category: IT Ops
-Tags: shell
+---
+layout: post
+date: 2016-02-25 12:00
+title: Writing an Activation Script
+tag: "IT Ops"
+comments: true
+---
 
 Sometimes when working on a project there is a need to temporary change the environment of the shell. One of the options for that is to use a so-called _activation script_:
 
