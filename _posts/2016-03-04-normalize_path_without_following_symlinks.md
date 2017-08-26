@@ -1,7 +1,10 @@
-Title: Normalize Path without Following Symbolic Links
-Date: 2016-03-04 12:00
-Category: IT Ops
-Tags: shell
+---
+layout: post
+date: 2016-03-04 12:00
+title: Normalize Path without Following Symbolic Links
+tag: "IT Ops"
+comments: true
+---
 
 Recently I got into a trouble with relative paths used in combination with symbolic links. The situation was following. I have a link:
 
