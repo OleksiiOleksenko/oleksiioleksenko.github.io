@@ -40,6 +40,14 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 
 # My Publications
 
+<div id="ref-varys2018">
+<p> Oleksii Oleksenko, Bohdan Trach, Robert Krahn, Andre Martin, Mark Silberstein, and Christof Fetzer. 2018. “Varys: Protecting SGX enclaves from practical side-channel attacks.” In <em>Proceedings of the USENIX Annual Technical Conference (USENIX ATC 18)</em>. url:<a href="https://www.usenix.org/conference/atc18/presentation/oleksenko">https://www.usenix.org/conference/atc18/presentation/oleksenko</a>.</p>
+</div>
+
+<div id="ref-mpx2018">
+<p> Oleksii Oleksenko, Dmitrii Kuvaiskii, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2018. “Intel MPX Explained: A Cross-layer Analysis of the Intel MPX System Stack.” In <em>Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS)</em>. doi:<a href="https://doi.org/10.1145/3224423">10.1145/3224423</a>.</p>
+</div>
+
 <div id="ref-sgxbounds2017">
 <p> <b>[Best Paper Award]</b> Dmitrii Kuvaiskii, Oleksii Oleksenko, Sergei Arnautov, Bohdan Trach, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2017. “SGXBounds: Memory Safety for Shielded Execution.” In <em>Proceedings of the Twelfth European Conference on Computer Systems</em>, 205–21. EuroSys’17. New York, NY, USA: ACM.</p>
 </div>
@@ -47,11 +55,6 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 <div id="ref-fex2017">
 <p>Oleksii Oleksenko, Dmitrii Kuvaiskii, Pramod Bhatotia, and Christof Fetzer. 2017. “Fex: A Software Systems Evaluator.” In <em>Proceedings of the 47st International Conference on Dependable Systems &amp; Networks (DSN)</em>.</p>
 </div>
-
-<div id="ref-OleksenkoKBFF17">
-<p>Oleksii Oleksenko, Dmitrii Kuvaiskii, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2017. “Intel MPX Explained: An Empirical Study of Intel MPX and Software-Based Bounds Checking Approaches.” <em>CoRR</em> abs/1702.00719.</p>
-</div>
-
 
 <div id="ref-Kuvaiskii2016elzarTechReport">
 <p>Dmitrii Kuvaiskii, Oleksii Oleksenko, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2016. “Elzar: Triple Modular Redundancy using Intel Advanced Vector Extensions (Technical Report).” In <em>ArXiv:1604.00500</em>.</p>
