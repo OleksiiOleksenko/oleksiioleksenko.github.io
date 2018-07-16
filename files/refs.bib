@@ -1,78 +1,107 @@
 @article{oleksenko2018you,
-  title={You Shall Not Bypass: Employing data dependencies to prevent Bounds Check Bypass},
-  author={Oleksenko, Oleksii and Trach, Bohdan and Reiher, Tobias and Silberstein, Mark and Fetzer, Christof},
-  journal={arXiv preprint arXiv:1805.08506},
-  year={2018}
+    title = {{You Shall Not Bypass: Employing data dependencies to prevent Bounds Check Bypass}},
+    author = {Oleksenko, Oleksii and Trach, Bohdan and Reiher, Tobias and Silberstein, Mark and Fetzer, Christof},
+    journal = {arXiv preprint arXiv:1805.08506},
+    url = {https://arxiv.org/abs/1805.08506v2},
+    abstract = {A recent discovery of a new class of microarchitectural attacks called Spectre picked up the attention of the security community as these attacks can overcome many traditional mechanisms of defense, such as bounds checking. One of the attacks - Bounds Check Bypass - can neither be efficiently solved on system nor architectural levels, and requires changes in the application itself. So far, the proposed mitigations involved serialization, which reduces the usage of CPU resources and causes high overheads. In this work, we propose a method of only delaying the vulnerable instructions, without the necessity to completely serialize execution. Our prototype implemented as an LLVM pass causes 60% overhead across Phoenix benchmark suite, which compares favorably to the full serialization causing 440% slowdown.},
+    year = {2018},
 }
 
 @inproceedings {Oleksenko2018Varys,
-  author = {Oleksii Oleksenko and Bohdan Trach and Robert Krahn and Andre Martin and Mark Silberstein and Christof Fetzer},
-  title = {Varys: {Protecting SGX} Enclaves from Practical Side-Channel Attacks},
-  booktitle = {2018 {USENIX} Annual Technical Conference ({USENIX} {ATC} 18)},
-  year = {2018},
-  isbn = {978-1-931971-44-7},
-  address = {Boston, MA},
-  pages = {227--240},
-  url = {https://www.usenix.org/conference/atc18/presentation/oleksenko},
-  publisher = {{USENIX} Association},
+    author = {Oleksenko, Oleksii and Trach, Bohdan and Krahn, Robert and Martin, Andre and Silberstein, Mark and Fetzer, Christof},
+    title = {Varys: {Protecting SGX} Enclaves from Practical Side-Channel Attacks},
+    booktitle = {2018 {USENIX} Annual Technical Conference ({USENIX} {ATC} 18)},
+    year = {2018},
+    isbn = {978-1-931971-44-7},
+    address = {Boston, MA},
+    pages = {227--240},
+    url = {https://www.usenix.org/conference/atc18/presentation/oleksenko},
+    publisher = {{USENIX} Association},
+    abstract={Numerous recent works have experimentally shown that Intel Software Guard Extensions (SGX) are vulnerable to cache timing and page table side-channel attacks which could be used to circumvent the data confidentiality guarantees provided by SGX. Existing mechanisms that protect against these attacks either incur high execution costs, are ineffective against certain attack variants, or require significant code modifications.
+We present Varys, a system that protects unmodified programs running in SGX enclaves from cache timing and page table side-channel attacks. Varys takes a pragmatic approach of strict reservation of physical cores to security-sensitive threads, thereby preventing the attacker from accessing shared CPU resources during enclave execution. The key challenge that we are addressing is that of maintaining the core reservation in the presence of an untrusted OS.
+Varys fully protects against all L1/L2 cache timing attacks and significantly raises the bar for page table side-channel attacks - all with only 15% overhead on average for Phoenix and PARSEC benchmarks. Additionally, we propose a set of minor hardware extensions that hold the potential to extend Varys' security guarantees to L3 cache and further improve its performance.},
+    url_PDF = {https://www.usenix.org/system/files/conference/atc18/atc18-oleksenko.pdf},
+    url_Slides = {https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_oleksenko.pdf},
 }
 
-@article{Oleksenko18mpxAbstract,
-  author={Oleksenko, Oleksii and Kuvaiskii, Dmitrii and Bhatotia, Pramod and Felber, Pascal and Fetzer, Christof},
-  title={{Intel MPX Explained: A Cross-layer Analysis of the Intel MPX System Stack}},
-  journal={{Proceedings of the ACM on Measurement and Analysis of Computing Systems}},
-  publisher={ACM},
-  year = {2018},
+@article{Oleksenko18mpx,
+    author={Oleksenko, Oleksii and Kuvaiskii, Dmitrii and Bhatotia, Pramod and Felber, Pascal and Fetzer, Christof},
+    title={{Intel MPX Explained: A Cross-layer Analysis of the Intel MPX System Stack}},
+    journal={{Proceedings of the ACM on Measurement and Analysis of Computing Systems}},
+    publisher={ACM},
+    year = {2018},
+    issue_date = {June 2018},
+    volume = {2},
+    number = {2},
+    issn = {2476-1249},
+    url = {http://doi.acm.org/10.1145/3224423},
+    url_technical-report = {https://arxiv.org/pdf/1702.00719.pdf},
+    url_Web = {https://intel-mpx.github.io/},
+    url_GitHub = {https://github.com/tudinfse/intel_mpx_explained},
+    doi = {10.1145/3224423},
+    acmid = {3224423},
+    publisher = {ACM},
+    abstract = {Memory-safety violations are the primary cause of security and reliability issues in software systems written
+in unsafe languages. Given the limited adoption of decades-long research in software-based memory safety
+approaches, as an alternative, Intel released Memory Protection Extensions (MPX)Ða hardware-assisted
+technique to achieve memory safety. In this work, we perform an exhaustive study of Intel MPX architecture
+along three dimensions: (a) performance overheads, (b) security guarantees, and (c) usability issues.
+We present the first detailed root cause analysis of problems in the Intel MPX architecture through a
+cross-layer dissection of the entire system stack, involving the hardware, operating system, compilers, and
+applications. To put our findings into perspective, we also present an in-depth comparison of Intel MPX with
+three prominent types of software-based memory safety approaches. Lastly, based on our investigation, we
+propose directions for potential changes to the Intel MPX architecture to aid the design space exploration of
+future hardware extensions for memory safety.}
 }
 
-@inproceedings{Oleksenko18mpx,
-  title={{Intel MPX Explained: A Cross-layer Analysis of the Intel MPX System Stack}},
-  author={Oleksenko, Oleksii and Kuvaiskii, Dmitrii and Bhatotia, Pramod and Felber, Pascal and Fetzer, Christof},
-  booktitle = {Abstracts of the 2018 ACM International Conference on Measurement and Modeling of Computer Systems},
-  series = {SIGMETRICS '18},
-  year = {2018},
-  isbn = {978-1-4503-5846-0},
-  location = {Irvine, CA, USA},
-  pages = {111--112},
-  numpages = {2},
-  url = {http://doi.acm.org/10.1145/3219617.3219662},
-  doi = {10.1145/3219617.3219662},
-  acmid = {3219662},
-  publisher = {ACM},
-  address = {New York, NY, USA},
-}
-
-@article{OleksenkoKBFF17,
-  author    = {Oleksii Oleksenko and Dmitrii Kuvaiskii and Pramod Bhatotia and Pascal Felber and Christof Fetzer},
-  title     = {Intel {MPX} Explained: An Empirical Study of Intel {MPX} and Software-based Bounds Checking Approaches},
-  journal   = {CoRR},
-  volume    = {abs/1702.00719},
-  year      = {2017},
-  biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/OleksenkoKBFF17},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
+@inproceedings{Oleksenko18mpxAbstract,
+    title={{Intel MPX Explained: A Cross-layer Analysis of the Intel MPX System Stack (Abstract)}},
+    author={Oleksenko, Oleksii and Kuvaiskii, Dmitrii and Bhatotia, Pramod and Felber, Pascal and Fetzer, Christof},
+    booktitle = {Abstracts of the 2018 ACM International Conference on Measurement and Modeling of Computer Systems},
+    series = {SIGMETRICS '18},
+    year = {2018},
+    isbn = {978-1-4503-5846-0},
+    location = {Irvine, CA, USA},
+    url = {http://doi.acm.org/10.1145/3219617.3219662},
+    doi = {10.1145/3219617.3219662},
+    acmid = {3219662},
+    publisher = {ACM},
 }
 
 @inproceedings{fex2017,
     author = {Oleksenko, Oleksii and Kuvaiskii, Dmitrii and Bhatotia, Pramod and Fetzer, Christof},
     title = {{Fex: A Software Systems Evaluator}},
     booktitle = {Proceedings of the 47st International Conference on Dependable Systems \& Networks (DSN)},
+    url = {http://se.inf.tu-dresden.de/pubs/papers/fex2017.pdf},
+    url_GitHub = {https://github.com/tudinfse/fex},
+    abstract = {Software systems research relies on experimental evaluation to assess the effectiveness of newly developed
+solutions. However, the existing evaluation frameworks are rigid (do not allow creation of new experiments), often
+simplistic (may not reveal issues that appear in real-world applications), and can be inconsistent (do not guarantee
+reproducibility of experiments across platforms). This paper presents FEX, a software systems evaluation framework that
+addresses these limitations. FEX is extensible (can be easily extended with custom experiment types), practical
+(supports composition of different benchmark suites and real-world applications), and reproducible (it is built
+on container technology to guarantee the same software stack across platforms). We show that FEX achieves these
+design goals with minimal end-user effort—for instance, adding Nginx web-server to evaluation requires only 160 LoC.
+Going forward, we discuss the architecture of the framework, explain its interface, show common usage scenarios,
+and evaluate the efforts for writing various custom extensions.},
     year = {2017},
 }
 
 
 @inproceedings{sgxbounds2017,
- author = {Kuvaiskii, Dmitrii and Oleksenko, Oleksii and Arnautov, Sergei and Trach, Bohdan and Bhatotia, Pramod and Felber, Pascal and Fetzer, Christof},
- title = {SGXBounds: Memory Safety for Shielded Execution},
- booktitle = {Proceedings of the Twelfth European Conference on Computer Systems},
- series = {EuroSys'17},
- year = {2017},
- isbn = {978-1-4503-4938-3},
- location = {Belgrade, Serbia},
- pages = {205--221},
- numpages = {17},
- acmid = {3064192},
- publisher = {ACM},
- address = {New York, NY, USA},
+    author = {Kuvaiskii, Dmitrii and Oleksenko, Oleksii and Arnautov, Sergei and Trach, Bohdan and Bhatotia, Pramod and Felber, Pascal and Fetzer, Christof},
+    title = {SGXBounds: Memory Safety for Shielded Execution},
+    booktitle = {Proceedings of the Twelfth European Conference on Computer Systems},
+    series = {EuroSys'17},
+    year = {2017},
+    isbn = {978-1-4503-4938-3},
+    location = {Belgrade, Serbia},
+    pages = {205--221},
+    numpages = {17},
+    acmid = {3064192},
+    publisher = {ACM.},
+    address = {New York, NY, USA},
+    note = {Best Paper Award}
 }
 
 @inproceedings{Oleksenko2016dsnFastAbstract,
@@ -88,15 +117,17 @@
     author = {Kuvaiskii, Dmitrii and Oleksenko, Oleksii and Bhatotia, Pramod and Felber, Pascal and Fetzer, Christof},
     title = {{Elzar: Triple Modular Redundancy using Intel AVX (Practical Experience Report)}},
     booktitle = {Proceedings of the IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2016)},
-    url_Technical-Report = {https://arxiv.org/abs/1604.00500},
+    url = {http://se.inf.tu-dresden.de/pubs/papers/Kuvaiskii2016elzar.pdf},
+    url_technical-report = {https://arxiv.org/abs/1604.00500},
     year = {2016},
 }
 
 @thesis{oleksenko2015simd,
-    title={SIMD-Swift: Improving Performance of Swift Fault Detection},
-    author={Oleksenko, Oleksii},
-    year={2015},
-    school={Master’s Thesis, Technische Universit{\"a}t Dresden}
+    title = {{SIMD-Swift: Improving Performance of Swift Fault Detection}},
+    author = {Oleksenko, Oleksii},
+    url = {http://www.qucosa.de/fileadmin/data/qucosa/documents/19252/Oleksenko_Oleksii_PDF_A.pdf},
+    year = {2015},
+    school = {Master’s Thesis, Technische Universit{\"a}t Dresden}
 }
 
 @inproceedings{Kolditz2015,

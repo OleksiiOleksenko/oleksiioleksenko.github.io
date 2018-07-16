@@ -22,7 +22,7 @@ sitemap:
     lastmod: 2016-02-13
 style: |
   .container {
-        max-width: 48rem;
+        max-width: 58rem;
     } 
 ---
 

@@ -40,7 +40,7 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 
 # My Publications
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Foleksiioleksenko.github.io%2Ffiles%2Frefs.bib&jsonp=1"></script> 
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Foleksiioleksenko.github.io%2Ffiles%2Frefs.bib&jsonp=1&theme=simple"></script> 
 
 ---
 
