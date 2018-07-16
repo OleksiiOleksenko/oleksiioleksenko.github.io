@@ -40,38 +40,7 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 
 # My Publications
 
-<div id="ref-varys2018">
-<p> Oleksii Oleksenko, Bohdan Trach, Robert Krahn, Andre Martin, Mark Silberstein, and Christof Fetzer. 2018. “Varys: Protecting SGX enclaves from practical side-channel attacks.” In <em>Proceedings of the USENIX Annual Technical Conference (USENIX ATC 18)</em>. url:<a href="https://www.usenix.org/conference/atc18/presentation/oleksenko">https://www.usenix.org/conference/atc18/presentation/oleksenko</a>.</p>
-</div>
-
-<div id="ref-mpx2018">
-<p> Oleksii Oleksenko, Dmitrii Kuvaiskii, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2018. “Intel MPX Explained: A Cross-layer Analysis of the Intel MPX System Stack.” In <em>Proceedings of the ACM on Measurement and Analysis of Computing Systems (POMACS)</em>. doi:<a href="https://doi.org/10.1145/3224423">10.1145/3224423</a>.</p>
-</div>
-
-<div id="ref-sgxbounds2017">
-<p> <b>[Best Paper Award]</b> Dmitrii Kuvaiskii, Oleksii Oleksenko, Sergei Arnautov, Bohdan Trach, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2017. “SGXBounds: Memory Safety for Shielded Execution.” In <em>Proceedings of the Twelfth European Conference on Computer Systems</em>, 205–21. EuroSys’17. New York, NY, USA: ACM.</p>
-</div>
-
-<div id="ref-fex2017">
-<p>Oleksii Oleksenko, Dmitrii Kuvaiskii, Pramod Bhatotia, and Christof Fetzer. 2017. “Fex: A Software Systems Evaluator.” In <em>Proceedings of the 47st International Conference on Dependable Systems &amp; Networks (DSN)</em>.</p>
-</div>
-
-<div id="ref-Kuvaiskii2016elzarTechReport">
-<p>Dmitrii Kuvaiskii, Oleksii Oleksenko, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2016. “Elzar: Triple Modular Redundancy using Intel Advanced Vector Extensions (Technical Report).” In <em>ArXiv:1604.00500</em>.</p>
-</div>
-
-<div id="ref-Kuvaiskii2016elzar">
-<p>Dmitrii Kuvaiskii, Oleksii Oleksenko, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2016. “Elzar: Triple Modular Redundancy using Intel AVX (Practical Experience Report).” In <em>Proceedings of the IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)</em>.</p>
-</div>
-
-
-<div id="ref-Oleksenko2016dsnFastAbstract">
-<p>Oleksenko Oleksii, Dmitrii Kuvaiskii, Pramod Bhatotia, Pascal Felber, and Christof Fetzer. 2016. “ Efficient Fault Tolerance using Intel MPX and TSX.” In <em>Proceedings of 46th Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)</em>. doi:<a href="https://doi.org/10.13140/RG.2.1.3224.7289">10.13140/RG.2.1.3224.7289</a>.</p>
-</div>
-
-<div id="ref-Kolditz2015">
-<p>Kolditz Till, Dirk Habich, Patrick Damme, Wolfgang Lehner, Dmitrii Kuvaiskii, Oleksii Oleksenko, and Christof Fetzer. 2015. “Resiliency-Aware Data Compression for in-Memory Database Systems.” In <em>Proceedings of 4th International Conference on Data Management Technologies and Applications</em>, 326–31. doi:<a href="https://doi.org/10.5220/0005557303260331">10.5220/0005557303260331</a>.</p>
-</div>
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Foleksiioleksenko.github.io%2Ffiles%2Frefs.bib&jsonp=1"></script> 
 
 ---
 
