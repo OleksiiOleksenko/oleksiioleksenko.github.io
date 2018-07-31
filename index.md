@@ -29,7 +29,7 @@ sitemap:
 
 ## I am a Computer Science PhD student interested in security and dependability
 
-Since February 2016, I've been working as a tutor and a Ph.D. student in System Engineering group at TU Dresden. Previously, I received my Master Degree in  Distributed Systems Engineering from the TU Dresden in 12/2015. And prior to that, I received a Master Degree in Telecommunications from NTUU "KPI". 
+Since February 2016, I've been working as a tutor and a Ph.D. student in the System Engineering group at TU Dresden. Previously, I received my Master Degree in  Distributed Systems Engineering from TU Dresden in 12/2015. And prior to that, I received a Master Degree in Telecommunications from NTUU "KPI". 
 
 Currently, I'm mainly working with cache side-channel attacks and defense mechanisms against them, especially in the context of Intel SGX.
 I also have experience with memory safety ([SGXBounds](http://dl.acm.org/citation.cfm?id=3064192)), Intel MPX ([MPX explained](https://intel-mpx.github.io/)), and different implementations of SIMD technology ([Elzar](http://se.inf.tu-dresden.de/pubs/papers/Kuvaiskii2016elzarTechReport.pdf)).
@@ -40,7 +40,7 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 
 # My Publications
 
-<script src="https://bibbase.org/show?bib=https%3A%2F%2Foleksiioleksenko.github.io%2Ffiles%2Frefs.bib&jsonp=1"></script> 
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Foleksiioleksenko.github.io%2Ffiles%2Frefs.bib&jsonp=1&theme=simple"></script> 
 
 ---
 
