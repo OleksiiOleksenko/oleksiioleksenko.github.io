@@ -2,7 +2,7 @@
 layout: page
 title: Hi! My name is Oleksii Oleksenko
 permalink: index.html
-show_meta: true
+show_meta: false
 # imagefeature path is relative to images/ directory.
 imagefeature: av.png
 published: true
