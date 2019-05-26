@@ -1,9 +1,12 @@
 ---
-layout: post
+title: "Notes on: Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory"
 date: 2017-08-28 12:00
-title: "A paper in short: Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory"
-tag: Security
-comments: true
+layout: post
+headerImage: false
+tag:
+- security
+category: blog
+author: me
 ---
 
 [Strong and Efficient Cache Side-Channel Protection using Hardware Transactional Memory](https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gruss) - Gruss et al.

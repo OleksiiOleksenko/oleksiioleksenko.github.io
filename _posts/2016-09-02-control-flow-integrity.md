@@ -1,10 +1,14 @@
 ---
+title: "Notes on: Control-Flow Integrity"
 layout: post
 date: 2016-09-02 12:00
-title: "A paper in short: Control-Flow Integrity"
-tag: Security
-comments: true
+headerImage: false
+tag:
+- security
+category: blog
+author: me
 ---
+
 
 [Control-Flow Integrity](http://dl.acm.org/citation.cfm?id=1102165) - Abadi et al. 
 

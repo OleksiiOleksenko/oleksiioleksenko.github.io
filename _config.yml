@@ -1,77 +1,96 @@
-permalink: /blog/:year/:month/:day/:title/
-relative_permalinks: false
-encoding: utf-8
-
-# Setup
-title:               Oleksii Oleksenko
-description:         My blog...
-url: https://oleksiioleksenko.github.io/
-baseurl: ""
-urlimg: https://oleksiioleksenko.github.io/images/
-markdown: kramdown
-kramdown:
-  math_engine: mathjax
-
-paginate: 5
-paginate_path: "/blog/page:num"
-excerpt_separator: <!--more-->
-default_bg: sitebg.jpg
-default_logo: sitelogo.png
-safe: false
 timezone:    Europe/Berlin
 future:      true
 
+# main text of home
+name: Oleksii Oleksenko
+bio: Researching hardware, software, and everything in between
 
-## code highlight options
-syntax_highlighter: rouge
-input: GFM
+# twitter summary info
+description: A blog about technology and stuff related
 
-gems:
-  - github-pages
-  - font-awesome-sass
-  - jekyll-redirect-from
-  - jekyll-mentions
+# if it's an external image, update below for true
+# better with square images
+external-image: false
+picture: assets/images/profile.jpg
+
+# If you want to include your resume, set to true
+# and specify source (external or local).
+resume: false
+
+url: https://oleksiioleksenko.github.io
+
+permalink: /:title/
+
+# To enable google analytics, supply your token below
+analytics-google: 'UA-76459048-1'
+
+# if you don't want comments in your posts, leave categories empty
+disqus:
+  shortname: oleksiioleksenko-github-io # enter this from your disqus account
+  categories: [blog] # only show disqus for posts that have these categories
+
+# if you don't have any of social below, comment the line
+twitter: oleksii_o
+github:  OleksiiOleksenko
+gscholar: qHCADLcAAAAJ
+linkedin: oleksiioleksenko
+email: oleksii.oleksenko at tu-dresden.de
+
+authors:
+    me:
+        name: Oleksii Oleksenko
+        bio: O
+        external-image: false
+        picture: assets/images/profile.jpg
+
+
+# do you want a larger site? change the option below
+# normal = 560px / large = 810px
+width: large
+
+# if you don't need pagination, comment the *paginate* configs below
+# paginate: 5
+# paginate_path: "blog/:num/"
+
+# if you don't need projects, comment the *projects* configs below
+#projects: true
+
+# if you don't need "about" or "blog", comment them out below
+about: true
+blog: true
+
+# do you want to show the "read time" of the posts?
+read-time: true
+
+# do you want to show the "tags" inside the posts?
+show-tags: true
+
+# related posts inside a post?
+#related: true
+
+# Display links for next and previous posts for the specified categories
+post-advance-links: [blog]
+
+# show author block at the end of a post ?
+show-author: false
+
+# do you want some animations?
+animation: true
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-admin
 
 jekyll-mentions:
-  base_url: https://twitter.com
+    base_url: https://github.com
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
+compress_html:
+    ignore:
+        envs:
+        - development
+        - stage
 
-# About/contact
-author:
-  name:              Oleksii Oleksenko
-  url:               https://twitter.com/oleksii_o
-  avatar:         av.png
-  #email:
-
-# Owner/author information
-owner:
-  name:           Oleksii Oleksenko
-  avatar:         av.png
-  twitter:        oleksii_o
-  github:         OleksiiOleksenko
-  linkedin:       https://www.linkedin.com/in/oleksiioleksenko/
-  gscholar: qHCADLcAAAAJ
-
-## sidebar links:
-# For external links add external: true
-links:
-  - title: <i class="iconside iconm-home"></i> Home
-    url: /
-  - title: <i class="iconside iconm-quill"></i> Blog
-    url: /blog/
-  - title: <i class="iconside iconm-envelop"></i> Contact
-    url: /contact/
-  - title: <i class="iconside iconm-feed2"></i> Feed
-    url: /feed.xml
-
-
-# Add disqus username for Disqus comment board:
-disqus_shortname: oleksiioleksenko-github-io
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-76459048-1
-
-
-## END ##
+exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
