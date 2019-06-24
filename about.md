@@ -24,7 +24,19 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="oleksenko2018you">8</a>]
+[<a name="oleksenko2019specfuzz">9</a>]
+</td>
+<td class="bibtexitem">
+<u>Oleksenko, O.</u>, Trach, B., Silberstein, M., and Fetzer, C.
+<b>SpecFuzz: Bringing Spectre-type vulnerabilities to the surface.</b>
+<em>arXiv preprint</em> (2019).
+[&nbsp;<a href="https://arxiv.org/abs/1905.10311">arXiv:1905.10311</a>&nbsp;]
+</td>
+</tr>
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="trach2018clemmys">8</a>]
 </td>
 <td class="bibtexitem">
 Trach, B., <u>Oleksenko, O.</u>, Gregor, F., Bhatotia, P., and Fetzer, C.
@@ -35,13 +47,13 @@ Trach, B., <u>Oleksenko, O.</u>, Gregor, F., Bhatotia, P., and Fetzer, C.
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="oleksenko2018you">7</a>]
+[<a name="oleksenko2018ysnb">7</a>]
 </td>
 <td class="bibtexitem">
 <u>Oleksenko, O.</u>, Trach, B., Reiher, T., Silberstein, M., and Fetzer, C.
 <b>You Shall Not Bypass: Employing data dependencies to prevent Bounds Check Bypass.</b>
-<em>arXiv preprint arXiv:1805.08506</em> (2018).
-[&nbsp;<a href="https://arxiv.org/abs/1805.08506v2">web</a>&nbsp;]
+<em>arXiv preprint</em> (2018).
+[&nbsp;<a href="https://arxiv.org/abs/1805.08506">arXiv:1805.08506</a>&nbsp;]
 </td>
 </tr>
 
@@ -52,8 +64,7 @@ Trach, B., <u>Oleksenko, O.</u>, Gregor, F., Bhatotia, P., and Fetzer, C.
 <td class="bibtexitem">
 <u>Oleksenko, O.</u>, Trach, B., Krahn, R., Martin, A., Silberstein, M., and Fetzer, C.
 <b>Varys: Protecting SGX enclaves from practical side-channel attacks.</b>
-In <em>Proceedings of the USENIX Annual Technical Conference (USENIX ATC)</em>
-(Boston, MA, 2018), USENIX Association, pp.&nbsp;227--240.
+In <em>Proceedings of the USENIX Annual Technical Conference (USENIX ATC)</em> (2018).
 [&nbsp;<a href="https://www.usenix.org/conference/atc18/presentation/oleksenko">web</a>&nbsp;
 |<a href="https://www.usenix.org/system/files/conference/atc18/atc18-oleksenko.pdf">.pdf</a>&nbsp;
 |<a href="https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_oleksenko.pdf">slides</a>&nbsp;]
@@ -99,7 +110,7 @@ In <em>Proceedings of the 47st International Conference on Dependable Systems &a
 <b>[Best Paper Award]</b>
 Kuvaiskii, D., <u>Oleksenko, O.</u>, Arnautov, S., Trach, B., Bhatotia, P., Felber, P., and Fetzer, C.
 <b>SGXBounds: Memory safety for shielded execution.</b>
-In <em>Proceedings of the Twelfth European Conference on Computer Systems</em> (New York, NY, USA, 2017), EuroSys'17, ACM., pp.&nbsp;205--221.
+In <em>Proceedings of the Twelfth European Conference on Computer Systems</em> (EuroSys) (2017).
 [&nbsp;<a href="https://homepages.inf.ed.ac.uk/pbhatoti/papers/SGXBounds-EuroSys-2017.pdf">.pdf</a>
 |<a href="https://github.com/tudinfse/sgxbounds">GitHub</a>&nbsp;]
 </td>
