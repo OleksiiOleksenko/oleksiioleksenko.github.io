@@ -145,3 +145,8 @@ In <em>Proceedings of the IEEE/IFIP International Conference on Dependable Syste
 </tr>
 
 </table>
+
+<!--
+My talks:
+https://fosdem.org/2020/schedule/event/security_specfuzz_bringing_spectre_type_vulnerabilities_to_the_surface/
+-->
