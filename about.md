@@ -24,13 +24,13 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
-[<a name="oleksenko2019specfuzz">9</a>]
+[<a name="oleksenko2020specfuzz">9</a>]
 </td>
 <td class="bibtexitem">
 <u>Oleksenko, O.</u>, Trach, B., Silberstein, M., and Fetzer, C.
 <b>SpecFuzz: Bringing Spectre-type vulnerabilities to the surface.</b>
-<em>arXiv preprint</em> (2019).
-[&nbsp;<a href="https://arxiv.org/abs/1905.10311">arXiv:1905.10311</a>&nbsp;]
+<em>To appear in USENIX Security Symposium</em> (2020).
+[&nbsp;<a href="https://arxiv.org/abs/1905.10311">Report</a>&nbsp;]
 </td>
 </tr>
 
@@ -42,6 +42,8 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 Trach, B., <u>Oleksenko, O.</u>, Gregor, F., Bhatotia, P., and Fetzer, C.
 <b>Clemmys: Towards Secure Remote Execution in FaaS.</b>
 <em>ACM/USENIX SYSTOR</em> (2019).
+[&nbsp;<a href="https://doi.org/10.1145/3319647.3325835">DOI</a>&nbsp;
+|&nbsp;<a href="https://www.systor.org/2019/slides/S3P2%20Clemmys%20Towards%20Secure%20Remote%20Execution%20in%20FaaS%20.pdf">Slides</a>&nbsp;]
 </td>
 </tr>
 
@@ -53,7 +55,7 @@ Trach, B., <u>Oleksenko, O.</u>, Gregor, F., Bhatotia, P., and Fetzer, C.
 <u>Oleksenko, O.</u>, Trach, B., Reiher, T., Silberstein, M., and Fetzer, C.
 <b>You Shall Not Bypass: Employing data dependencies to prevent Bounds Check Bypass.</b>
 <em>arXiv preprint</em> (2018).
-[&nbsp;<a href="https://arxiv.org/abs/1805.08506">arXiv:1805.08506</a>&nbsp;]
+[&nbsp;<a href="https://arxiv.org/abs/1805.08506">Report</a>&nbsp;]
 </td>
 </tr>
 
@@ -65,9 +67,9 @@ Trach, B., <u>Oleksenko, O.</u>, Gregor, F., Bhatotia, P., and Fetzer, C.
 <u>Oleksenko, O.</u>, Trach, B., Krahn, R., Martin, A., Silberstein, M., and Fetzer, C.
 <b>Varys: Protecting SGX enclaves from practical side-channel attacks.</b>
 In <em>Proceedings of the USENIX Annual Technical Conference (USENIX ATC)</em> (2018).
-[&nbsp;<a href="https://www.usenix.org/conference/atc18/presentation/oleksenko">web</a>&nbsp;
-|<a href="https://www.usenix.org/system/files/conference/atc18/atc18-oleksenko.pdf">.pdf</a>&nbsp;
-|<a href="https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_oleksenko.pdf">slides</a>&nbsp;]
+[&nbsp;<a href="https://www.usenix.org/conference/atc18/presentation/oleksenko">Web</a>&nbsp;
+|&nbsp;<a href="https://www.usenix.org/system/files/conference/atc18/atc18-oleksenko.pdf">PDF</a>&nbsp;
+|&nbsp;<a href="https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_oleksenko.pdf">Slides</a>&nbsp;]
 </td>
 </tr>
 
@@ -80,9 +82,9 @@ In <em>Proceedings of the USENIX Annual Technical Conference (USENIX ATC)</em> (
 <b>Intel MPX Explained: A Cross-layer Analysis of the Intel MPX System Stack.</b>
 In <em>Proceedings of the ACM International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)</em>, (2018).
 [&nbsp;<a href="http://dx.doi.org/10.1145/3224423">DOI</a>&nbsp;
-|<a href="https://intel-mpx.github.io/">web</a>&nbsp;
-|<a href="https://arxiv.org/pdf/1702.00719.pdf">report</a>&nbsp;
-|<a href="https://github.com/tudinfse/intel_mpx_explained">GitHub</a>&nbsp;]
+|&nbsp;<a href="https://intel-mpx.github.io/">Web</a>&nbsp;
+|&nbsp;<a href="https://arxiv.org/pdf/1702.00719.pdf">Report</a>&nbsp;
+|&nbsp;<a href="https://github.com/tudinfse/intel_mpx_explained">GitHub</a>&nbsp;]
 </td>
 </tr>
 
@@ -95,8 +97,8 @@ In <em>Proceedings of the ACM International Conference on Measurement and Modeli
 <u>Oleksenko, O.</u>, Kuvaiskii, D., Bhatotia, P., and Fetzer, C.
 <b>Fex: A Software Systems Evaluator.</b>
 In <em>Proceedings of the 47st International Conference on Dependable Systems &amp; Networks (DSN)</em> (2017).
-[&nbsp;<a href="http://se.inf.tu-dresden.de/pubs/papers/fex2017.pdf">.pdf</a>&nbsp;
-|<a href="https://github.com/tudinfse/fex">GitHub</a>&nbsp;]
+[&nbsp;<a href="http://se.inf.tu-dresden.de/pubs/papers/fex2017.pdf">PDF</a>&nbsp;
+|&nbsp;<a href="https://github.com/tudinfse/fex">GitHub</a>&nbsp;]
 
 </td>
 </tr>
@@ -111,8 +113,8 @@ In <em>Proceedings of the 47st International Conference on Dependable Systems &a
 Kuvaiskii, D., <u>Oleksenko, O.</u>, Arnautov, S., Trach, B., Bhatotia, P., Felber, P., and Fetzer, C.
 <b>SGXBounds: Memory safety for shielded execution.</b>
 In <em>Proceedings of the Twelfth European Conference on Computer Systems</em> (EuroSys) (2017).
-[&nbsp;<a href="https://homepages.inf.ed.ac.uk/pbhatoti/papers/SGXBounds-EuroSys-2017.pdf">.pdf</a>
-|<a href="https://github.com/tudinfse/sgxbounds">GitHub</a>&nbsp;]
+[&nbsp;<a href="https://homepages.inf.ed.ac.uk/pbhatoti/papers/SGXBounds-EuroSys-2017.pdf">PDF</a>
+|&nbsp;<a href="https://github.com/tudinfse/sgxbounds">GitHub</a>&nbsp;]
 </td>
 </tr>
 
@@ -124,8 +126,8 @@ In <em>Proceedings of the Twelfth European Conference on Computer Systems</em> (
 Kuvaiskii, D., <u>Oleksenko, O.</u>, Bhatotia, P., Felber, P., and Fetzer, C.
 <b>Elzar: Triple Modular Redundancy using Intel AVX (Practical  Experience Report).</b>
 In <em>Proceedings of the IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)</em> (2016).
-[&nbsp;<a href="http://se.inf.tu-dresden.de/pubs/papers/Kuvaiskii2016elzar.pdf">.pdf</a>&nbsp;
-|<a href="https://arxiv.org/abs/1604.00500">report</a>&nbsp;]
+[&nbsp;<a href="http://se.inf.tu-dresden.de/pubs/papers/Kuvaiskii2016elzar.pdf">PDF</a>&nbsp;
+|&nbsp;<a href="https://arxiv.org/abs/1604.00500">Report</a>&nbsp;]
 </td>
 </tr>
 
@@ -137,7 +139,7 @@ In <em>Proceedings of the IEEE/IFIP International Conference on Dependable Syste
 <td class="bibtexitem">
 <u>Oleksenko, O.</u>
  SIMD-Swift: Improving Performance of Swift Fault Detection, 2015.
-[&nbsp;<a href="http://www.qucosa.de/fileadmin/data/qucosa/documents/19252/Oleksenko_Oleksii_PDF_A.pdf">.pdf</a>&nbsp;]
+[&nbsp;<a href="http://www.qucosa.de/fileadmin/data/qucosa/documents/19252/Oleksenko_Oleksii_PDF_A.pdf">PDF</a>&nbsp;]
 
 </td>
 </tr>
