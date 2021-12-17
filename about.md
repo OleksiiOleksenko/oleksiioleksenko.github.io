@@ -7,14 +7,16 @@ description: "About me"
 
 # Hi! My name is Oleksii Oleksenko
 
-## I am a Computer Science PhD student interested in security and dependability
+## I am a Computer Science researcher interested in security and dependability
 
-Since February 2016, I've been working as a tutor and a Ph.D. student in the System Engineering group at TU Dresden. Previously, I received my Master Degree in  Distributed Systems Engineering from TU Dresden in 12/2015. And prior to that, I received a Master Degree in Telecommunications from NTUU "KPI".
+Since December 2021, I am a postdoc at Microsoft Research Cambridge, where I develop new techniques to find and fix microarchitectural vulnerabilities (like Spectre and Meltdown) at various stages of the CPU design as well as in black-box CPUs.
+
+I did my PhD in the System Engineering group at TU Dresden;
+I had my Master Degree in Distributed Systems Engineering from TU Dresden.
+And prior to that, I received a Master Degree in Telecommunications from NTUU "KPI".
 
 Currently, I'm mainly working with microarchitectural/side-channel attacks and trying to develop defenses against them.
-I also have experience with trusted executing environments (especially, Intel SGX), memory safety ([SGXBounds](http://dl.acm.org/citation.cfm?id=3064192)), Intel MPX ([MPX explained](https://intel-mpx.github.io/)), and different implementations of SIMD technology ([Elzar](http://se.inf.tu-dresden.de/pubs/papers/Kuvaiskii2016elzarTechReport.pdf)).
-
-More information about me on [my university page](https://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/team/people/o_oleksenko) and on [LinkedIn](https://www.linkedin.com/in/oleksiioleksenko).
+I also had experience with trusted executing environments (especially, Intel SGX), memory safety ([SGXBounds](http://dl.acm.org/citation.cfm?id=3064192)), Intel MPX ([MPX explained](https://intel-mpx.github.io/)), and different implementations of SIMD technology ([Elzar](http://se.inf.tu-dresden.de/pubs/papers/Kuvaiskii2016elzarTechReport.pdf)).
 
 ---
 
@@ -24,13 +26,38 @@ More information about me on [my university page](https://tu-dresden.de/die_tu_d
 
 <tr valign="top">
 <td align="right" class="bibtexnumber">
+[<a name="oleksenko2022revizor">11</a>]
+</td>
+<td class="bibtexitem">
+<u>Oleksenko, O.</u>, Fetzer, C., Köpf, B., and Silberstein, M. 
+<b>Revizor: Testing Black-box CPUs against Speculation Contracts.</b>
+<em>In Architectural Support for Programming Languages and Operating Systems (ASPLOS)</em> (2022).
+[&nbsp;<a href="https://arxiv.org/abs/2105.06872">Report</a>&nbsp;]
+</td>
+</tr>
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="trach2021revizor">10</a>]
+</td>
+<td class="bibtexitem">
+Trach B., Faqeh R., <u>Oleksenko O.</u>, Ozga W., Bhatotia P., Fetzer C.
+<b>T-lease: A trusted lease primitive for distributed systems.</b>
+<em>In ACM Symposium on Cloud Computing</em> (2020).
+[&nbsp;<a href="https://dl.acm.org/doi/abs/10.1145/3419111.3421273">Web</a>&nbsp;]
+</td>
+</tr>
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
 [<a name="oleksenko2020specfuzz">9</a>]
 </td>
 <td class="bibtexitem">
 <u>Oleksenko, O.</u>, Trach, B., Silberstein, M., and Fetzer, C.
 <b>SpecFuzz: Bringing Spectre-type vulnerabilities to the surface.</b>
-<em>To appear in USENIX Security Symposium</em> (2020).
-[&nbsp;<a href="https://arxiv.org/abs/1905.10311">Report</a>&nbsp;]
+<em>In USENIX Security Symposium</em> (2020).
+[&nbsp;<a href="https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko">Web</a>&nbsp;
+|&nbsp;<a href="https://arxiv.org/abs/1905.10311">Report</a>&nbsp;]
 </td>
 </tr>
 
