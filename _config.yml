@@ -2,8 +2,8 @@ timezone:    Europe/London
 future:      true
 
 # main text of home
-name: Oleksii Oleksenko
-bio: Researching hardware, software, and everything in between
+name: Hi! I am Oleksii Oleksenko
+bio: I am a Computer Science researcher working on hardware security, software security, and everything in between
 
 # twitter summary info
 description: Personal website
@@ -56,7 +56,7 @@ width: large
 #projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: true
+about: false
 blog: false
 
 # do you want to show the "read time" of the posts?
