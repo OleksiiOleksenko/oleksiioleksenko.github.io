@@ -6,7 +6,7 @@ name: Oleksii Oleksenko
 bio: Researching hardware, software, and everything in between
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Personal website
 
 # if it's an external image, update below for true
 # better with square images
@@ -22,12 +22,12 @@ url: https://oleksiioleksenko.github.io
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-76459048-1'
+# analytics-google: ''
 
 # if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: oleksiioleksenko-github-io # enter this from your disqus account
-  categories: [blog] # only show disqus for posts that have these categories
+# disqus:
+  # shortname: # enter this from your disqus account
+  # categories: [blog] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 twitter: oleksii_o
@@ -57,7 +57,7 @@ width: large
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: true
