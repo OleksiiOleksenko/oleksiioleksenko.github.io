@@ -2,8 +2,8 @@ timezone:    Europe/London
 future:      true
 
 # main text of home
-name: Hi! I am Oleksii Oleksenko
-bio: I am a Computer Science researcher working on hardware security, software security, and everything in between
+name: Oleksii Oleksenko
+bio: Computer Science researcher working on hardware security, software security, and everything in between
 
 # twitter summary info
 description: Personal website
