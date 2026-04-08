@@ -3,7 +3,7 @@ update:
 	bundle update
 
 serve:
-	bundle  exec jekyll serve --config _config.yml,_config-dev.yml
+	bundle exec ./bin/jekyll serve --config _config.yml,_config-dev.yml
 
 open:
 	firefox http://localhost:4000
