@@ -1,4 +1,4 @@
-@use "variables" as *
+@import "variables"
 
 body, html
   font-size: 62.5%
@@ -7,6 +7,13 @@ body
   line-height: 1
   font: 16px $fontSans
   color: $alpha
+  background-color: $bgPrimary
+  background-image: radial-gradient(rgba(63, 185, 80, 0.04) 1px, transparent 1px)
+  background-size: 24px 24px
+
+::selection
+  background: rgba(63, 185, 80, 0.25)
+  color: #fff
 
 h1, h2, h3, h4
   font-family: $fontSans
@@ -35,24 +42,20 @@ a
 
 p
   line-height: 1.7
-  color: $alpha
-  font-weight: 300
+  color: #b0b8c4
+  font-weight: 400
   margin-bottom: 20px
-  letter-spacing: 0.4px
-
-  @media #{$mobile}
-    letter-spacing: 0.2px
 
 strong
-  font-weight: 400
-  color: #000
+  font-weight: 600
+  color: $beta
 
 ul,
 ol
   li
     line-height: 2.4rem
-    font-weight: 300
-    color: $alpha
+    font-weight: 400
+    color: #b0b8c4
 
 img,
 pre,
@@ -80,7 +83,7 @@ figcaption
 
 blockquote
   padding-left: 15px
-  border-left: 3px solid #eee
+  border-left: 3px solid $epsilon
 
 hr
   border: none
@@ -95,12 +98,11 @@ figure.highlight
 
 code,
 tt
-  padding: 1px 0
+  padding: 1px 4px
   font-family: $fontMonospace
   font-size: 12px
   line-height: 20px
-  background: #fff
-  border-radius: 2px
+  background: $epsilon
   border-radius: 2px
 
 pre

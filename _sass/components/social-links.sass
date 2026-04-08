@@ -1,4 +1,4 @@
-@use "../base/variables" as *
+@import "../base/variables"
 
 .social-links
     margin-top: 20px
@@ -30,8 +30,9 @@
             margin: 0 auto
             font-size: 13px
             padding: 3px 10px
-            background: $beta
-            color: #fff
+            background: $bgSurface
+            color: $beta
+            border: 1px solid $epsilon
             border-radius: 2px
             height: 22px
             line-height: 22px
@@ -49,7 +50,7 @@
             height: 0
             border-left: 5px solid transparent
             border-right: 5px solid transparent
-            border-bottom: 6px solid $beta
+            border-bottom: 6px solid $bgSurface
             opacity: 0
             transition: opacity 150ms linear, transform 150ms linear, -webkit-transform 150ms linear
             transform: translate3d(0,-8px,0)

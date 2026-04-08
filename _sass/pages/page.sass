@@ -1,12 +1,222 @@
+@import "../base/variables"
+
 .page
-    margin-top: 125px
+    margin-top: 80px
 
     > h1
         text-align: center
         margin-bottom: 6rem
+
+// Homepage sections
+.home
+    > h2
+        margin-top: 3.5rem
+        margin-bottom: 1.5rem
+        padding-bottom: 0.5rem
+        border-bottom: 1px solid $epsilon
+        position: relative
+
+        &:before
+            content: "> "
+            color: $delta
+            font-weight: 400
+
+        &:after
+            content: ""
+            position: absolute
+            bottom: -1px
+            left: 0
+            width: 3rem
+            height: 1px
+            background: $delta
+
+    > .intro
+        background: $bgSurface
+        border: 1px solid $epsilon
+        border-left: 3px solid $delta
+        border-radius: 0 4px 4px 0
+        padding: 1.2rem 1.5rem
+        margin-bottom: 1rem
+
+        > p
+            line-height: 1.85
+
+        > p:last-child
+            margin-bottom: 0
+
+        .ghost-trigger
+            position: relative
+            cursor: default
+
+            .ghost-egg
+                position: absolute
+                left: 50%
+                bottom: 1.6rem
+                transform: translateX(-50%) scale(0.6)
+                font-size: 2.4rem
+                opacity: 0
+                pointer-events: none
+                filter: blur(0px)
+                transition: opacity 0.15s ease, transform 0.15s ease
+
+            &:hover .ghost-egg
+                opacity: 1
+                transform: translateX(-50%) scale(1)
+                animation: ghost-glitch 1.5s steps(1) infinite
+
+    .research-tags
+        display: flex
+        flex-wrap: wrap
+        gap: 0.5rem
+        margin-top: 0.3rem
+
+        .tag
+            display: inline-block
+            font-size: 1.2rem
+            font-weight: 500
+            color: $delta
+            background: rgba(63, 185, 80, 0.08)
+            border: 1px solid rgba(63, 185, 80, 0.2)
+            border-radius: 100px
+            padding: 0.25rem 0.9rem
+            letter-spacing: 0.02em
+            transition: background-color 0.15s ease
+
+            &:hover
+                background: rgba(63, 185, 80, 0.15)
 
 .about
     img
         width: 50%
         margin: 0 auto
         display: block
+
+// Publications list
+ol.pubs
+    list-style: none
+    padding: 0
+    margin: 0 0 2rem 0
+
+    > li.pub
+        position: relative
+        padding: 0.6rem 0.6rem 0.6rem 4rem
+        margin: 0
+        line-height: 1.55
+        font-weight: 300
+        color: $alpha
+        counter-increment: pub-counter -1
+        border-radius: 4px
+        transition: background-color 0.15s ease
+
+        &:hover
+            background-color: rgba(63, 185, 80, 0.04)
+
+        &:before
+            content: "[" counter(pub-counter) "]"
+            position: absolute
+            left: 0
+            top: 0.6rem
+            width: 3.6rem
+            text-align: right
+            color: $gama
+            font-variant-numeric: tabular-nums
+
+        + li.pub
+            border-top: 1px solid $epsilon
+
+        .badge
+            display: inline-block
+            font-size: 1.1rem
+            font-weight: 500
+            color: $delta
+            border: 1px solid $epsilon
+            border-radius: 3px
+            padding: 1px 6px
+            margin-right: 6px
+            vertical-align: 1px
+
+        .authors
+            color: $alpha
+
+            .me
+                font-weight: 600
+                color: $beta
+
+        .title
+            font-weight: 500
+            color: $beta
+            margin-left: 0.25em
+
+        .venue
+            color: $alpha
+            margin-left: 0.25em
+
+        .links
+            color: $gama
+            margin-left: 0.25em
+
+            a
+                text-decoration: none
+                color: $delta
+
+                &:hover
+                    text-decoration: underline
+
+// Awards
+ul.awards
+    list-style: none
+    padding: 0
+    margin: 0 0 2rem 0
+
+    > li
+        display: flex
+        align-items: baseline
+        padding: 0.6rem 0.8rem
+        margin-bottom: 0.4rem
+        line-height: 1.6
+        font-weight: 300
+        color: $alpha
+        border-left: 3px solid $delta
+        background: $bgSurface
+        border-radius: 0 3px 3px 0
+
+        .year
+            flex: 0 0 4.5rem
+            font-weight: 500
+            color: $delta
+            font-variant-numeric: tabular-nums
+
+        .text
+            flex: 1
+            color: #b0b8c4
+            font-weight: 400
+
+// Service (grouped by year)
+.service-groups
+    margin: 0 0 2rem 0
+
+    .service-year
+        display: flex
+        align-items: baseline
+        padding: 0.5rem 0
+
+        + .service-year
+            border-top: 1px solid $epsilon
+
+        > .year
+            flex: 0 0 6.5rem
+            font-weight: 500
+            color: $delta
+            font-variant-numeric: tabular-nums
+
+        > ul
+            flex: 1
+            list-style: none
+            padding: 0
+            margin: 0
+
+            > li
+                line-height: 1.6
+                font-weight: 300
+                color: $alpha
+                padding: 0.15rem 0

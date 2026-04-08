@@ -1,4 +1,4 @@
-@use "../base/variables" as *
+@import "../base/variables"
 
 .nav,
 .nav-home
@@ -16,6 +16,11 @@
             font-size: 1.4rem
             padding: 20px 10px
             text-decoration: none
+            color: $alpha
+            transition: color 0.2s ease
+
+            &:hover
+                color: $delta
 
 .nav
     position: absolute
@@ -45,4 +50,4 @@
             width: 70px
 
             &:hover
-                color: $alpha
+                color: $delta

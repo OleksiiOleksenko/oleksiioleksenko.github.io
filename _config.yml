@@ -3,6 +3,7 @@ future:      true
 
 # main text of home
 name: Oleksii Oleksenko
+title: Oleksii Oleksenko
 bio: Computer Science researcher working on hardware security, software security, and everything in between
 
 # twitter summary info
@@ -35,14 +36,6 @@ github:  OleksiiOleksenko
 gscholar: qHCADLcAAAAJ
 linkedin: oleksiioleksenko
 # email: t-oleksenko at tu-dresden.de
-
-authors:
-    me:
-        name: Oleksii Oleksenko
-        bio: O
-        external-image: false
-        picture: assets/images/profile.jpg
-
 
 # do you want a larger site? change the option below
 # normal = 560px / large = 810px

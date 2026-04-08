@@ -1,0 +1,151 @@
+oleksenko2026enter:
+  authors: "Oleksenko, O., Solt, F., Fournet, C., Hofmann, J., Köpf, B., Volos, S."
+  title: "Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks."
+  venue: "IEEE Symposium on Security and Privacy (S&P)"
+  year: 2026
+  links:
+    - { name: Web, url: "https://www.microsoft.com/en-us/research/publication/enter-exit-page-fault-leak-testing-isolation-boundaries-for-microarchitectural-leaks/" }
+    - { name: PDF, url: "https://arxiv.org/abs/2507.06039" }
+
+fu2025amulet:
+  authors: "Fu, B., Tenenbaum, L., Adler, D., Klein, A., Gogia, A., Alameldeen, A. R., Guarnieri, M., Silberstein, M., Oleksenko, O., Saileshwar, G."
+  title: "Amulet: Automated Design-time Testing of Secure Speculation Countermeasures."
+  venue: "Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  year: 2025
+  links:
+    - { name: Web, url: "https://dl.acm.org/doi/abs/10.1145/3676641.3716247" }
+    - { name: PDF, url: "https://dl.acm.org/doi/pdf/10.1145/3676641.3716247" }
+
+volos2024principled:
+  badge: "Distinguished Paper Award"
+  authors: "Volos, S., Fournet, C., Hofmann, J., Köpf, B., Oleksenko, O."
+  title: "Principled Microarchitectural Isolation on Cloud CPUs."
+  venue: "ACM SIGSAC Conference on Computer and Communications Security (CCS)"
+  year: 2024
+  links:
+    - { name: Web, url: "https://dl.acm.org/doi/abs/10.1145/3658644.3690183" }
+    - { name: PDF, url: "https://dl.acm.org/doi/pdf/10.1145/3658644.3690183" }
+
+hofmann2023fault:
+  authors: "Hofmann, J., Vannacci, E., Fournet, C., Köpf, B., Oleksenko, O."
+  title: "Speculation at Fault: Modeling and Testing Microarchitectural Leakage of CPU Exceptions."
+  venue: "USENIX Security Symposium (USENIX Security)"
+  year: 2023
+  links:
+    - { name: Web, url: "https://www.usenix.org/conference/usenixsecurity23/presentation/hofmann" }
+    - { name: PDF, url: "https://www.usenix.org/system/files/usenixsecurity23-hofmann.pdf" }
+    - { name: GitHub, url: "https://github.com/microsoft/sca-fuzzer" }
+    - { name: Artifact, url: "https://github.com/vusec/SpeculationAtFault-AE" }
+
+oleksenko2023hide:
+  authors: "Oleksenko, O., Guarnieri, M., Köpf, B., Silberstein, M."
+  title: "Hide and Seek with Spectres: Efficient discovery of speculative information leaks with random testing."
+  venue: "IEEE Symposium on Security and Privacy (S&P)"
+  year: 2023
+  links:
+    - { name: Web, url: "https://www.microsoft.com/en-us/research/publication/hide-and-seek-with-spectres-efficient-discovery-of-speculative-information-leaks-with-random-testing/" }
+    - { name: PDF, url: "https://arxiv.org/abs/2301.07642" }
+    - { name: GitHub, url: "https://github.com/microsoft/sca-fuzzer" }
+
+oleksenko2022revizor:
+  badge: "Micro Top Pick'23"
+  authors: "Oleksenko, O., Fetzer, C., Köpf, B., Silberstein, M."
+  title: "Revizor: Testing Black-box CPUs against Speculation Contracts."
+  venue: "Architectural Support for Programming Languages and Operating Systems (ASPLOS)"
+  year: 2022
+  links:
+    - { name: Web, url: "https://dl.acm.org/doi/10.1145/3503222.3507729" }
+    - { name: Report, url: "https://arxiv.org/abs/2105.06872" }
+    - { name: GitHub, url: "https://github.com/microsoft/sca-fuzzer" }
+
+trach2021tlease:
+  authors: "Trach, B., Faqeh, R., Oleksenko, O., Ozga, W., Bhatotia, P., Fetzer, C."
+  title: "T-lease: A trusted lease primitive for distributed systems."
+  venue: "ACM Symposium on Cloud Computing"
+  year: 2020
+  links:
+    - { name: Web, url: "https://dl.acm.org/doi/abs/10.1145/3419111.3421273" }
+
+oleksenko2020specfuzz:
+  badge: "First Place @ CSAW'20"
+  authors: "Oleksenko, O., Trach, B., Silberstein, M., Fetzer, C."
+  title: "SpecFuzz: Bringing Spectre-type vulnerabilities to the surface."
+  venue: "USENIX Security Symposium"
+  year: 2020
+  links:
+    - { name: Web, url: "https://www.usenix.org/conference/usenixsecurity20/presentation/oleksenko" }
+    - { name: Report, url: "https://arxiv.org/abs/1905.10311" }
+
+trach2018clemmys:
+  authors: "Trach, B., Oleksenko, O., Gregor, F., Bhatotia, P., Fetzer, C."
+  title: "Clemmys: Towards Secure Remote Execution in FaaS."
+  venue: "ACM/USENIX SYSTOR"
+  year: 2019
+  links:
+    - { name: DOI, url: "https://doi.org/10.1145/3319647.3325835" }
+    - { name: Slides, url: "https://www.systor.org/2019/slides/S3P2%20Clemmys%20Towards%20Secure%20Remote%20Execution%20in%20FaaS%20.pdf" }
+
+oleksenko2018ysnb:
+  authors: "Oleksenko, O., Trach, B., Reiher, T., Silberstein, M., Fetzer, C."
+  title: "You Shall Not Bypass: Employing data dependencies to prevent Bounds Check Bypass."
+  venue: "arXiv preprint"
+  year: 2018
+  links:
+    - { name: Report, url: "https://arxiv.org/abs/1805.08506" }
+
+Oleksenko2018Varys:
+  authors: "Oleksenko, O., Trach, B., Krahn, R., Martin, A., Silberstein, M., Fetzer, C."
+  title: "Varys: Protecting SGX enclaves from practical side-channel attacks."
+  venue: "USENIX Annual Technical Conference (USENIX ATC)"
+  year: 2018
+  links:
+    - { name: Web, url: "https://www.usenix.org/conference/atc18/presentation/oleksenko" }
+    - { name: PDF, url: "https://www.usenix.org/system/files/conference/atc18/atc18-oleksenko.pdf" }
+    - { name: Slides, url: "https://www.usenix.org/sites/default/files/conference/protected-files/atc18_slides_oleksenko.pdf" }
+
+Oleksenko18mpx:
+  authors: "Oleksenko, O., Kuvaiskii, D., Bhatotia, P., Felber, P., Fetzer, C."
+  title: "Intel MPX Explained: A Cross-layer Analysis of the Intel MPX System Stack."
+  venue: "ACM International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)"
+  year: 2018
+  links:
+    - { name: DOI, url: "http://dx.doi.org/10.1145/3224423" }
+    - { name: Web, url: "https://intel-mpx.github.io/" }
+    - { name: Report, url: "https://arxiv.org/pdf/1702.00719.pdf" }
+    - { name: GitHub, url: "https://github.com/tudinfse/intel_mpx_explained" }
+
+fex2017:
+  authors: "Oleksenko, O., Kuvaiskii, D., Bhatotia, P., Fetzer, C."
+  title: "Fex: A Software Systems Evaluator."
+  venue: "International Conference on Dependable Systems & Networks (DSN)"
+  year: 2017
+  links:
+    - { name: PDF, url: "http://se.inf.tu-dresden.de/pubs/papers/fex2017.pdf" }
+    - { name: GitHub, url: "https://github.com/tudinfse/fex" }
+
+sgxbounds2017:
+  badge: "Best Paper Award"
+  authors: "Kuvaiskii, D., Oleksenko, O., Arnautov, S., Trach, B., Bhatotia, P., Felber, P., Fetzer, C."
+  title: "SGXBounds: Memory safety for shielded execution."
+  venue: "European Conference on Computer Systems (EuroSys)"
+  year: 2017
+  links:
+    - { name: PDF, url: "https://homepages.inf.ed.ac.uk/pbhatoti/papers/SGXBounds-EuroSys-2017.pdf" }
+    - { name: GitHub, url: "https://github.com/tudinfse/sgxbounds" }
+
+Kuvaiskii2016elzar:
+  authors: "Kuvaiskii, D., Oleksenko, O., Bhatotia, P., Felber, P., Fetzer, C."
+  title: "Elzar: Triple Modular Redundancy using Intel AVX (Practical Experience Report)."
+  venue: "IEEE/IFIP International Conference on Dependable Systems and Networks (DSN)"
+  year: 2016
+  links:
+    - { name: PDF, url: "http://se.inf.tu-dresden.de/pubs/papers/Kuvaiskii2016elzar.pdf" }
+    - { name: Report, url: "https://arxiv.org/abs/1604.00500" }
+
+oleksenko2015simd:
+  authors: "Oleksenko, O."
+  title: "SIMD-Swift: Improving Performance of Swift Fault Detection."
+  venue: "Master's Thesis, TU Dresden"
+  year: 2015
+  links:
+    - { name: PDF, url: "http://www.qucosa.de/fileadmin/data/qucosa/documents/19252/Oleksenko_Oleksii_PDF_A.pdf" }

@@ -1,4 +1,4 @@
-@use "../base/variables" as *
+@import "../base/variables"
 
 .header-home
     display: block
@@ -11,26 +11,37 @@
         width: 125px
         margin-bottom: 25px
         border-radius: 100%
-        transition: all .2s
-        box-shadow: 0
-        opacity: 1
+        transition: box-shadow .3s ease, transform .3s ease
+        box-shadow: 0 0 0 3px rgba(63, 185, 80, 0.15), 0 0 15px rgba(63, 185, 80, 0.05)
 
         &:hover
-            box-shadow: 0 0px 4px 0 rgba(0,0,0,0.18), 0 0px 12px 0 rgba(0,0,0,0.15)
-            opacity: .8
+            box-shadow: 0 0 0 3px rgba(63, 185, 80, 0.35), 0 0 25px rgba(63, 185, 80, 0.12)
+            transform: scale(1.03)
 
     > .title
         font-size: 4rem
         margin: 0 0 13px
+        color: $beta
+
+        &:after
+            content: "_"
+            color: $delta
+            animation: cursor-blink 1.2s step-end infinite
 
     > .description
         font-size: 1.85rem
         font-weight: 300
         font-style: normal
-        color: $gama
+        color: $alpha
         width: 70%
         margin: 0 auto 30px
 
         // if you put some links in your bio. ;)
         a
             font-weight: 200
+
+@keyframes cursor-blink
+    0%, 100%
+        opacity: 1
+    50%
+        opacity: 0
