@@ -25,11 +25,6 @@ permalink: /:title/
 # To enable google analytics, supply your token below
 # analytics-google: ''
 
-# if you don't want comments in your posts, leave categories empty
-# disqus:
-  # shortname: # enter this from your disqus account
-  # categories: [blog] # only show disqus for posts that have these categories
-
 # if you don't have any of social below, comment the line
 twitter: oleksii_o
 github:  OleksiiOleksenko
@@ -41,16 +36,11 @@ linkedin: oleksiioleksenko
 # normal = 560px / large = 810px
 width: large
 
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
-
 # if you don't need projects, comment the *projects* configs below
 #projects: true
 
-# if you don't need "about" or "blog", comment them out below
+# if you don't need "about", comment it out below
 about: false
-blog: false
 
 # do you want to show the "read time" of the posts?
 read-time: false
@@ -60,9 +50,6 @@ show-tags: false
 
 # related posts inside a post?
 #related: true
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
 
 # show author block at the end of a post ?
 show-author: false
