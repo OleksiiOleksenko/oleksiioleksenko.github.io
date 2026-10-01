@@ -11,7 +11,3 @@ open:
 test:
 	bundle exec htmlproofer ./_site
 
-refs:
-	bibtex2html -noabstract -noheader -nobibsource -s acm _data/refs.bib
-
-

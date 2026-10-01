@@ -1,4 +1,5 @@
 oleksenko2026enter:
+  badge: "Distinguished Paper Award"
   authors: "Oleksenko, O., Solt, F., Fournet, C., Hofmann, J., Köpf, B., Volos, S."
   title: "Enter, Exit, Page Fault, Leak: Testing Isolation Boundaries for Microarchitectural Leaks."
   venue: "IEEE Symposium on Security and Privacy (S&P)"

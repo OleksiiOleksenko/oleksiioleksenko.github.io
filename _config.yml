@@ -22,9 +22,6 @@ url: https://oleksiioleksenko.github.io
 
 permalink: /:title/
 
-# To enable google analytics, supply your token below
-# analytics-google: ''
-
 # if you don't have any of social below, comment the line
 twitter: oleksii_o
 github:  OleksiiOleksenko
@@ -36,17 +33,11 @@ linkedin: oleksiioleksenko
 # normal = 560px / large = 810px
 width: large
 
-# if you don't need projects, comment the *projects* configs below
-#projects: true
-
 # if you don't need "about", comment it out below
 about: false
 
 # do you want to show the "read time" of the posts?
 read-time: false
-
-# do you want to show the "tags" inside the posts?
-show-tags: false
 
 # related posts inside a post?
 #related: true
@@ -72,4 +63,4 @@ compress_html:
         - development
         - stage
 
-exclude: ["travis.sh", "Rakefile", "README.md", "Gemfile", "Gemfile.lock", "FAQ.md"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock"]
